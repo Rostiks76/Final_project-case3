@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Результат</title>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; background: #433E4D; }
+        .container { background: white; max-width: 500px; margin: 0 auto; padding: 30px; border-radius: 20px; }
+        .score { font-size: 48px; font-weight: bold; color: #89C400; }
+        .btn { background: #32C2D7; color: white; padding: 12px 30px; border: none; border-radius: 10px; font-size: 18px; cursor: pointer; text-decoration: none; display: inline-block; margin: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>📊 РЕЗУЛЬТАТ ВИКТОРИНЫ</h2>
+        <p>👤 Игрок: <strong>{{ name }}</strong></p>
+        <p>✅ Правильных ответов: <strong>{{ correct }} из {{ total }}</strong></p>
+        <div class="score">{{ score }}%</div>
+        <br>
+        <a href="/" class="btn">🏠 На главную</a>
+        <a href="/leaderboard" class="btn">🏆 Таблица лидеров</a>
+    </div>
+</body>
+</html>
