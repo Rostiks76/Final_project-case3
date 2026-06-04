@@ -54,15 +54,15 @@ viktorina/
 
 ├── templates/
 
-│ ├── index.html
+├── index.html
 
-│ ├── start.html
+├── start.html
 
-│ ├── quiz.html
+├── quiz.html
 
-│ ├── result.html
+├── result.html
 
-│ └── leaderboard.html
+└── leaderboard.html
 
 └── README.md
 
